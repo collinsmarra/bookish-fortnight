@@ -1,0 +1,32 @@
+.butt{
+    background-color: #fefefe;
+    color: wheat;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: dotted;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form{
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    background: azure;
+    box-sizing: border-box;
+    color: black;
+    height: auto;
+}
+.username{
+    padding: 15px;
+    border: 1px solid #cccc;
+    border-radius: 4px;
+}
+
+.password{
+    padding: 15px;
+    border: 1px solid #cccc;
+    border-radius: 4px;
+}

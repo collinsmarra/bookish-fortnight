@@ -1,0 +1,125 @@
+/*
+ *
+.task {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+
+.task-title {
+    flex: 1;
+    font-weight: bold;
+    margin-right: 10px;
+    text-align: right;
+    column-width: 180px;
+}
+
+.task-priority {
+    flex: 1;
+    margin-right: 10px;
+    color: #d00d0d;
+    font-weight: bold;
+    column-width: 100px;
+    text-align: left;
+}
+
+.task-checkbox{
+    flex: 0;
+    margin-right: 10px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 1px;
+    font-size: 40px;
+    border: none;
+    border-radius: 3px;
+    color: aquamarine;
+}
+
+.task-id{
+    flex: 0;
+    text-align: right;
+}
+*
+*/
+
+.task {
+display: flex;
+align-items: center;
+font-size: 40px;
+column-width: 300px;
+}
+
+.task-title {
+flex: 2;
+font-weight: bold;
+margin-right: 10px;
+text-align: center;
+}
+
+.task-priority {
+flex: 1;
+margin-right: 10px;
+font-weight: bold;
+text-align: center;
+}
+
+.task-priority:contains("A"){
+    color: red;
+}
+.task-priority:contains("B"){
+    color: orange;
+}
+
+.task-priority:contains("C"){
+    color: aqua;
+}
+
+.task-priority:contains("D"){
+    color: white;
+}
+
+
+
+.task-checkbox{
+flex: 0;
+margin-right: 10px;
+text-align: left;
+width: auto;
+height: auto;
+padding: 1px;
+font-size: 40px;
+border: none;
+border-radius: 3px;
+color: aquamarine;
+}
+
+
+.task-id{
+flex: 0;
+text-align: right;
+}
+
+.creation{
+    background-color: gray;
+    color: azure;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    animation: auto;
+    width: 150px;
+    transition: background-color 0.2s;
+    height: 48px;
+}
+
+.creation:hover{
+    background-color: chartreuse;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+}

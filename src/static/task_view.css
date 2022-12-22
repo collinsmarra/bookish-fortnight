@@ -1,0 +1,32 @@
+.task {
+	border: 1px solid rgb(249, 246, 246);
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.task-title {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.task-description {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.task-footer {
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+.task-id {
+	color: rgb(6, 160, 19);
+	float: right;
+	font-size: medium;
+	font-weight: bold;
+}
+
+.task-priority {
+	color: rgb(208, 13, 13);
+	font-weight: bold;
+}

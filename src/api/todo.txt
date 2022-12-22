@@ -1,0 +1,48 @@
+==================================
+	Authentication
+==================================
+[-]SignUp
+[+]Login
+[+]LogOut
+[-]Forgot Password
+
+
+==================================
+	Tasks
+==================================
+[+] Create Task
+[+] View Task
+
+
+==================================
+	Tasks
+==================================
+[-] Delete Task
+[-] Update Task
+[+] View Task
+
+
+==================================
+	Redirects
+==================================
+[+] Login
+[+] SignUp
+[+] Forgot Password
+[+] View Task
+[+] Create Task
+[-] Update Task
+[+] Delete Task
+[+] LogOut
+
+
+==================================
+	FlashMessages
+==================================
+[-] Login
+[-] SignUp
+[-] Forgot Password
+[-] Create Task
+[-] Update Task
+[-] Delete Task
+[-] LogOut
+

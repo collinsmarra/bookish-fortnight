@@ -1,0 +1,16 @@
+Cargo.lock
+
+# Ignore target directory
+target/
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore local development files
+.env
+.DS_Store
+
+# Ignore generated files
+*.js
+*.js.map
+
